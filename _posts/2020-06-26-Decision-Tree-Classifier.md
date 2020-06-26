@@ -91,7 +91,7 @@ By calling the predict method new features traverse the tree until they reach a 
 We can now compare our accuracy score to the baseline of 33% and to the scikit-learn DecisionTreeClassifier score.  
 
 <p align="center">
-    <img width="400" height="400" src=/ComparisonSklearn.png
+    <img width="400" height="500" src=/ComparisonSklearn.png
 </p>
 
 You can view the full code [here](https://github.com/jbell1991/DecisionTree/blob/master/DecisionTree.ipynb).  
