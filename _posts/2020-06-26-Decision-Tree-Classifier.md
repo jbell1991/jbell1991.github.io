@@ -34,7 +34,7 @@ train_df.shape, test_df.shape
 
 A tree starts with a root node, which asks a question of an attribute.  If data is pure, meaning the data split on that attribute is of all one class, the answer to the question is yes.  If the data is pure the tree has reached a leaf or terminal node and a classification is made.  If the data is impure, meaning there are multiple classes with that attribute, the answer to the question is no.  The tree grows, continuing to split on different attributes until all splits are pure, leaf nodes are reached and classifications are made.  
 
-![Decision Tree Sklearn](https://github.com/jbell1991/jbell1991.github.io/blob/master/DecisionTree.png)
+![Decision Tree Sklearn](/DecisionTree.png)
 
 How does the algorithm know which attributes to split on?  Using Entropy and Information Gain!  Entropy is a measure of purity that ranges from 0 to 1, with 0 being pure or containing 1 class and 1 being impure containing none of that particular class.  In the decision tree above the measure of impurity used is called “gini”, but it’s still the same idea.  As you can see, when a leaf node has been reached, the gini = 0.0.  
 
@@ -88,4 +88,4 @@ By calling the predict method new features traverse the tree until they reach a 
 
 We can now compare our accuracy score to the baseline of 33% and to the scikit-learn DecisionTreeClassifier score.  
 
-![Comparison to Sklearn](https://github.com/jbell1991/jbell1991.github.io/blob/master/ComparisonSklearn.png)
+![Comparison to Sklearn](/ComparisonSklearn.png)
