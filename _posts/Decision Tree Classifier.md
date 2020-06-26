@@ -1,4 +1,4 @@
-How to Implement a Decision Tree Algorithm in Python
+**How to Implement a Decision Tree Algorithm in Python**
 
 Decision Trees are one of the most popular machine learning algorithms because they are easy to understand compared to more complex algorithms like Neural Networks.  In this example we will look at a classification problem using the well-known Iris dataset.  
 
@@ -6,11 +6,11 @@ Decision Trees are one of the most popular machine learning algorithms because t
 
 The dataset has feature columns that describe each type of flower in the target column.  The features include sepal length, sepal width, petal length and petal width.  The types of flowers include an even number of Iris-setosa, Iris-versicolor, and Iris-virginica.  
 
-Begin with the baseline:
+**Begin with the baseline**
 
 In any machine learning task, we want to beat the baseline.  In a classification problem, the baseline would be to guess the majority class every time resulting in a 33.33% accuracy score since each flower is 1/3 of the dataset.  That accuracy score is very low and I bet we can improve the score by a lot using decision trees.  
 
-How does it work?
+**How does it work?**
 
 The decision tree is trained on a dataset with features and a target column.  The algorithm learns patterns in the features that map to the target that it is able to use to predict on new flowers using unseen features.  
 
