@@ -2,7 +2,7 @@
 
 Decision Trees are one of the most popular machine learning algorithms because they are easy to understand compared to more complex algorithms like Neural Networks.  In this example we will look at a classification problem using the well-known Iris dataset.  
 
-{: .![Iris Dataset Head](https://github.com/jbell1991/jbell1991.github.io/blob/master/IrisDatasetHead.png):}
+![Iris Dataset Head](https://github.com/jbell1991/jbell1991.github.io/blob/master/IrisDatasetHead.png)
 
 The dataset has feature columns that describe each type of flower in the target column.  The features include sepal length, sepal width, petal length and petal width.  The types of flowers include an even number of Iris-setosa, Iris-versicolor, and Iris-virginica.  
 
