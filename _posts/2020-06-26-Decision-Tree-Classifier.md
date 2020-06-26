@@ -1,4 +1,4 @@
-<h1>How to Implement a Decision Tree Algorithm in Python<h1>
+<h1>How to Implement a Decision Tree Algorithm in Python
 
 Decision Trees are one of the most popular machine learning algorithms because they are easy to understand compared to more complex algorithms like Neural Networks.  In this example we will look at a classification problem using the well-known Iris dataset.  
 
