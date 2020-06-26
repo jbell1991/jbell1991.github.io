@@ -3,7 +3,7 @@
 Decision Trees are one of the most popular machine learning algorithms because they are easy to understand compared to more complex algorithms like Neural Networks.  In this example we will look at a classification problem using the well-known Iris dataset.  
 
 <p align="center">
-    <img width="600" height="200" src=/IrisDatasetHead.png
+    <img width="600" height="200" src=/IrisDatasetHead.png>
 </p>
 
 The dataset has feature columns that describe each type of flower in the target column.  The features include sepal length, sepal width, petal length and petal width.  The types of flowers include an even number of Iris-setosa, Iris-versicolor, and Iris-virginica.  
@@ -91,7 +91,7 @@ By calling the predict method new features traverse the tree until they reach a 
 We can now compare our accuracy score to the baseline of 33% and to the scikit-learn DecisionTreeClassifier score.  
 
 <p align="center">
-    <img width="400" height="500" src=/ComparisonSklearn.png
+    <img width="400" height="500" src=/ComparisonSklearn.png>
 </p>
 
 You can view the full code [here](https://github.com/jbell1991/DecisionTree/blob/master/DecisionTree.ipynb).  
